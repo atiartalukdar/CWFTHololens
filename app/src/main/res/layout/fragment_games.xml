@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#409c8a" >
-    
-    <TextView android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:gravity="center"
-        android:text="This is a prototype, the whole project is under development by Fantastic4"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"/>
-    
+        android:background="#91a7a7"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:id="@+id/gameTicTacToeBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snake"
+        android:layout_margin="35dp"
+        android:id="@+id/gameSnakeBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting Face"
+        android:id="@+id/gameConnectingFaceBtn"/>
+
+
+</LinearLayout>
