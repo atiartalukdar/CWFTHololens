@@ -41,15 +41,15 @@ public class BeatsFragment extends Fragment  implements View.OnClickListener {
 				break;
 			case R.id.button2:
 				Toast.makeText(getActivity(), "Relaxation Beats", Toast.LENGTH_SHORT).show();
-				resID = R.raw.sleep;
+				resID = R.raw.relaxation_alpha;
 				break;
 			case R.id.button3:
 				Toast.makeText(getActivity(), "Focus Beats", Toast.LENGTH_SHORT).show();
-				resID = R.raw.sleep;
+				resID = R.raw.focused_gama;
 				break;
 			case R.id.button4:
 				Toast.makeText(getActivity(), "Meditation Beats", Toast.LENGTH_SHORT).show();
-				resID = R.raw.sleep;
+				resID = R.raw.medi;
 				break;
 			default:
 
